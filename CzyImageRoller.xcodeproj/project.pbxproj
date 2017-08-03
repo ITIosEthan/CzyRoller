@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065C0D6F1F306BD600757EA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 065C0D6E1F306BD600757EA0 /* main.m */; };
+		065C0D721F306BD600757EA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 065C0D711F306BD600757EA0 /* AppDelegate.m */; };
+		065C0D751F306BD600757EA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 065C0D741F306BD600757EA0 /* ViewController.m */; };
+		065C0D781F306BD600757EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065C0D761F306BD600757EA0 /* Main.storyboard */; };
+		065C0D7A1F306BD600757EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065C0D791F306BD600757EA0 /* Assets.xcassets */; };
+		065C0D7D1F306BD600757EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065C0D7B1F306BD600757EA0 /* LaunchScreen.storyboard */; };
+		065C0D881F306BD700757EA0 /* CzyImageRollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 065C0D871F306BD700757EA0 /* CzyImageRollerTests.m */; };
+		065C0D931F306BD700757EA0 /* CzyImageRollerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 065C0D921F306BD700757EA0 /* CzyImageRollerUITests.m */; };
+		06F532751F32C020002B8B3B /* CzyCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F532701F32C020002B8B3B /* CzyCircleView.m */; };
+		06F532761F32C020002B8B3B /* CzyImageRollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F532721F32C020002B8B3B /* CzyImageRollerView.m */; };
+		06F532771F32C020002B8B3B /* CzyRollerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F532741F32C020002B8B3B /* CzyRollerCell.m */; };
+		B0FAD39F96FAF8428021C2D2 /* libPods-CzyImageRoller.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1ACBC1FC63D5B05746144A /* libPods-CzyImageRoller.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		065C0D841F306BD700757EA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065C0D621F306BD600757EA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065C0D691F306BD600757EA0;
+			remoteInfo = CzyImageRoller;
+		};
+		065C0D8F1F306BD700757EA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 065C0D621F306BD600757EA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 065C0D691F306BD600757EA0;
+			remoteInfo = CzyImageRoller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0065CE42A444E471DE1E9FA7 /* Pods-CzyImageRoller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CzyImageRoller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CzyImageRoller/Pods-CzyImageRoller.debug.xcconfig"; sourceTree = "<group>"; };
+		065C0D6A1F306BD600757EA0 /* CzyImageRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CzyImageRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		065C0D6E1F306BD600757EA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		065C0D701F306BD600757EA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		065C0D711F306BD600757EA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		065C0D731F306BD600757EA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		065C0D741F306BD600757EA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		065C0D771F306BD600757EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		065C0D791F306BD600757EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		065C0D7C1F306BD600757EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		065C0D7E1F306BD600757EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065C0D831F306BD700757EA0 /* CzyImageRollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CzyImageRollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065C0D871F306BD700757EA0 /* CzyImageRollerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CzyImageRollerTests.m; sourceTree = "<group>"; };
+		065C0D891F306BD700757EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065C0D8E1F306BD700757EA0 /* CzyImageRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CzyImageRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		065C0D921F306BD700757EA0 /* CzyImageRollerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CzyImageRollerUITests.m; sourceTree = "<group>"; };
+		065C0D941F306BD700757EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065C0DA61F306FCB00757EA0 /* CzyRollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CzyRollerView.h; sourceTree = "<group>"; };
+		06F5326F1F32C020002B8B3B /* CzyCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CzyCircleView.h; sourceTree = "<group>"; };
+		06F532701F32C020002B8B3B /* CzyCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CzyCircleView.m; sourceTree = "<group>"; };
+		06F532711F32C020002B8B3B /* CzyImageRollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CzyImageRollerView.h; sourceTree = "<group>"; };
+		06F532721F32C020002B8B3B /* CzyImageRollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CzyImageRollerView.m; sourceTree = "<group>"; };
+		06F532731F32C020002B8B3B /* CzyRollerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CzyRollerCell.h; sourceTree = "<group>"; };
+		06F532741F32C020002B8B3B /* CzyRollerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CzyRollerCell.m; sourceTree = "<group>"; };
+		4F1ACBC1FC63D5B05746144A /* libPods-CzyImageRoller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CzyImageRoller.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DD441925A7D52D55A7DF8B /* Pods-CzyImageRoller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CzyImageRoller.release.xcconfig"; path = "Pods/Target Support Files/Pods-CzyImageRoller/Pods-CzyImageRoller.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065C0D671F306BD600757EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0FAD39F96FAF8428021C2D2 /* libPods-CzyImageRoller.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065C0D801F306BD700757EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065C0D8B1F306BD700757EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065C0D611F306BD600757EA0 = {
+			isa = PBXGroup;
+			children = (
+				065C0D6C1F306BD600757EA0 /* CzyImageRoller */,
+				065C0D861F306BD700757EA0 /* CzyImageRollerTests */,
+				065C0D911F306BD700757EA0 /* CzyImageRollerUITests */,
+				065C0D6B1F306BD600757EA0 /* Products */,
+				0D82EB27713140B11B49019A /* Pods */,
+				DA15D37021F197EC705015D6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		065C0D6B1F306BD600757EA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				065C0D6A1F306BD600757EA0 /* CzyImageRoller.app */,
+				065C0D831F306BD700757EA0 /* CzyImageRollerTests.xctest */,
+				065C0D8E1F306BD700757EA0 /* CzyImageRollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		065C0D6C1F306BD600757EA0 /* CzyImageRoller */ = {
+			isa = PBXGroup;
+			children = (
+				06F5326E1F32C020002B8B3B /* CzyRoller */,
+				065C0D701F306BD600757EA0 /* AppDelegate.h */,
+				065C0D711F306BD600757EA0 /* AppDelegate.m */,
+				065C0D731F306BD600757EA0 /* ViewController.h */,
+				065C0D741F306BD600757EA0 /* ViewController.m */,
+				065C0D761F306BD600757EA0 /* Main.storyboard */,
+				065C0D791F306BD600757EA0 /* Assets.xcassets */,
+				065C0D7B1F306BD600757EA0 /* LaunchScreen.storyboard */,
+				065C0D7E1F306BD600757EA0 /* Info.plist */,
+				065C0D6D1F306BD600757EA0 /* Supporting Files */,
+			);
+			path = CzyImageRoller;
+			sourceTree = "<group>";
+		};
+		065C0D6D1F306BD600757EA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				065C0D6E1F306BD600757EA0 /* main.m */,
+				065C0DA61F306FCB00757EA0 /* CzyRollerView.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		065C0D861F306BD700757EA0 /* CzyImageRollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				065C0D871F306BD700757EA0 /* CzyImageRollerTests.m */,
+				065C0D891F306BD700757EA0 /* Info.plist */,
+			);
+			path = CzyImageRollerTests;
+			sourceTree = "<group>";
+		};
+		065C0D911F306BD700757EA0 /* CzyImageRollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				065C0D921F306BD700757EA0 /* CzyImageRollerUITests.m */,
+				065C0D941F306BD700757EA0 /* Info.plist */,
+			);
+			path = CzyImageRollerUITests;
+			sourceTree = "<group>";
+		};
+		06F5326E1F32C020002B8B3B /* CzyRoller */ = {
+			isa = PBXGroup;
+			children = (
+				06F5326F1F32C020002B8B3B /* CzyCircleView.h */,
+				06F532701F32C020002B8B3B /* CzyCircleView.m */,
+				06F532711F32C020002B8B3B /* CzyImageRollerView.h */,
+				06F532721F32C020002B8B3B /* CzyImageRollerView.m */,
+				06F532731F32C020002B8B3B /* CzyRollerCell.h */,
+				06F532741F32C020002B8B3B /* CzyRollerCell.m */,
+			);
+			path = CzyRoller;
+			sourceTree = "<group>";
+		};
+		0D82EB27713140B11B49019A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0065CE42A444E471DE1E9FA7 /* Pods-CzyImageRoller.debug.xcconfig */,
+				80DD441925A7D52D55A7DF8B /* Pods-CzyImageRoller.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA15D37021F197EC705015D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1ACBC1FC63D5B05746144A /* libPods-CzyImageRoller.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		065C0D691F306BD600757EA0 /* CzyImageRoller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065C0D971F306BD700757EA0 /* Build configuration list for PBXNativeTarget "CzyImageRoller" */;
+			buildPhases = (
+				F85A067C884C02858EE995A8 /* [CP] Check Pods Manifest.lock */,
+				065C0D661F306BD600757EA0 /* Sources */,
+				065C0D671F306BD600757EA0 /* Frameworks */,
+				065C0D681F306BD600757EA0 /* Resources */,
+				8A1AFE819162B35A16A9A9A5 /* [CP] Embed Pods Frameworks */,
+				1150535F86F238299F63F5CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CzyImageRoller;
+			productName = CzyImageRoller;
+			productReference = 065C0D6A1F306BD600757EA0 /* CzyImageRoller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		065C0D821F306BD700757EA0 /* CzyImageRollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065C0D9A1F306BD700757EA0 /* Build configuration list for PBXNativeTarget "CzyImageRollerTests" */;
+			buildPhases = (
+				065C0D7F1F306BD700757EA0 /* Sources */,
+				065C0D801F306BD700757EA0 /* Frameworks */,
+				065C0D811F306BD700757EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065C0D851F306BD700757EA0 /* PBXTargetDependency */,
+			);
+			name = CzyImageRollerTests;
+			productName = CzyImageRollerTests;
+			productReference = 065C0D831F306BD700757EA0 /* CzyImageRollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		065C0D8D1F306BD700757EA0 /* CzyImageRollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065C0D9D1F306BD700757EA0 /* Build configuration list for PBXNativeTarget "CzyImageRollerUITests" */;
+			buildPhases = (
+				065C0D8A1F306BD700757EA0 /* Sources */,
+				065C0D8B1F306BD700757EA0 /* Frameworks */,
+				065C0D8C1F306BD700757EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				065C0D901F306BD700757EA0 /* PBXTargetDependency */,
+			);
+			name = CzyImageRollerUITests;
+			productName = CzyImageRollerUITests;
+			productReference = 065C0D8E1F306BD700757EA0 /* CzyImageRollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		065C0D621F306BD600757EA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = macOfEthan;
+				TargetAttributes = {
+					065C0D691F306BD600757EA0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGQ3T5S6T9;
+						ProvisioningStyle = Automatic;
+					};
+					065C0D821F306BD700757EA0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGQ3T5S6T9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 065C0D691F306BD600757EA0;
+					};
+					065C0D8D1F306BD700757EA0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TGQ3T5S6T9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 065C0D691F306BD600757EA0;
+					};
+				};
+			};
+			buildConfigurationList = 065C0D651F306BD600757EA0 /* Build configuration list for PBXProject "CzyImageRoller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 065C0D611F306BD600757EA0;
+			productRefGroup = 065C0D6B1F306BD600757EA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065C0D691F306BD600757EA0 /* CzyImageRoller */,
+				065C0D821F306BD700757EA0 /* CzyImageRollerTests */,
+				065C0D8D1F306BD700757EA0 /* CzyImageRollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065C0D681F306BD600757EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065C0D7D1F306BD600757EA0 /* LaunchScreen.storyboard in Resources */,
+				065C0D7A1F306BD600757EA0 /* Assets.xcassets in Resources */,
+				065C0D781F306BD600757EA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065C0D811F306BD700757EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065C0D8C1F306BD700757EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1150535F86F238299F63F5CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CzyImageRoller/Pods-CzyImageRoller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1AFE819162B35A16A9A9A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CzyImageRoller/Pods-CzyImageRoller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85A067C884C02858EE995A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065C0D661F306BD600757EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065C0D751F306BD600757EA0 /* ViewController.m in Sources */,
+				06F532761F32C020002B8B3B /* CzyImageRollerView.m in Sources */,
+				06F532751F32C020002B8B3B /* CzyCircleView.m in Sources */,
+				065C0D721F306BD600757EA0 /* AppDelegate.m in Sources */,
+				065C0D6F1F306BD600757EA0 /* main.m in Sources */,
+				06F532771F32C020002B8B3B /* CzyRollerCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065C0D7F1F306BD700757EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065C0D881F306BD700757EA0 /* CzyImageRollerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		065C0D8A1F306BD700757EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065C0D931F306BD700757EA0 /* CzyImageRollerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		065C0D851F306BD700757EA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065C0D691F306BD600757EA0 /* CzyImageRoller */;
+			targetProxy = 065C0D841F306BD700757EA0 /* PBXContainerItemProxy */;
+		};
+		065C0D901F306BD700757EA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 065C0D691F306BD600757EA0 /* CzyImageRoller */;
+			targetProxy = 065C0D8F1F306BD700757EA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		065C0D761F306BD600757EA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065C0D771F306BD600757EA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		065C0D7B1F306BD600757EA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				065C0D7C1F306BD600757EA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		065C0D951F306BD700757EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		065C0D961F306BD700757EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		065C0D981F306BD700757EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0065CE42A444E471DE1E9FA7 /* Pods-CzyImageRoller.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CzyImageRoller/CzyRollerView.h";
+				INFOPLIST_FILE = CzyImageRoller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ethan.com.CzyImageRoller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		065C0D991F306BD700757EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DD441925A7D52D55A7DF8B /* Pods-CzyImageRoller.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CzyImageRoller/CzyRollerView.h";
+				INFOPLIST_FILE = CzyImageRoller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ethan.com.CzyImageRoller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		065C0D9B1F306BD700757EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = CzyImageRollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ethan.com.CzyImageRollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CzyImageRoller.app/CzyImageRoller";
+			};
+			name = Debug;
+		};
+		065C0D9C1F306BD700757EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = CzyImageRollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ethan.com.CzyImageRollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CzyImageRoller.app/CzyImageRoller";
+			};
+			name = Release;
+		};
+		065C0D9E1F306BD700757EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = CzyImageRollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ethan.com.CzyImageRollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CzyImageRoller;
+			};
+			name = Debug;
+		};
+		065C0D9F1F306BD700757EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TGQ3T5S6T9;
+				INFOPLIST_FILE = CzyImageRollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ethan.com.CzyImageRollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CzyImageRoller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065C0D651F306BD600757EA0 /* Build configuration list for PBXProject "CzyImageRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065C0D951F306BD700757EA0 /* Debug */,
+				065C0D961F306BD700757EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065C0D971F306BD700757EA0 /* Build configuration list for PBXNativeTarget "CzyImageRoller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065C0D981F306BD700757EA0 /* Debug */,
+				065C0D991F306BD700757EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065C0D9A1F306BD700757EA0 /* Build configuration list for PBXNativeTarget "CzyImageRollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065C0D9B1F306BD700757EA0 /* Debug */,
+				065C0D9C1F306BD700757EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065C0D9D1F306BD700757EA0 /* Build configuration list for PBXNativeTarget "CzyImageRollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065C0D9E1F306BD700757EA0 /* Debug */,
+				065C0D9F1F306BD700757EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 065C0D621F306BD600757EA0 /* Project object */;
+}

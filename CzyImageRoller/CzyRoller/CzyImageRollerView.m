@@ -81,6 +81,15 @@ static CGFloat bottomBarH = 40;
     [self addSubview:_alerter];
     
     [_alerter.layer addAnimation:[self upDownAnimation] forKey:@"position"];
+    
+    //保存图片
+    _save = [UIButton buttonWithType:UIButtonTypeCustom];
+    _save.frame = CGRectMake(kRollerWidth-10-60, 20, 60, 30);
+    [_save setTitle:@"保存图片" forState:UIControlStateNormal];
+    [_save setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    _save.titleLabel.font = [UIFont systemFontOfSize:14];
+    [_save addTarget:self action:@selector(saveImageToAlbum) forControlEvents:UIControlEventTouchUpInside];
+    [self addSubview:_save];
 }
 
 #pragma mark - setPageStyle
@@ -121,13 +130,6 @@ static CGFloat bottomBarH = 40;
     _pageNum.font = [UIFont boldSystemFontOfSize:14];
     [_bottonFunctionBar addSubview:_pageNum];
     
-    _save = [UIButton buttonWithType:UIButtonTypeCustom];
-    [_save setTitle:@"保存" forState:UIControlStateNormal];
-    [_save setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    _save.titleLabel.font = [UIFont systemFontOfSize:14];
-    _save.frame = CGRectMake(kRollerWidth-10-60, 5, 60, 30);
-    [_save addTarget:self action:@selector(saveImageToAlbum) forControlEvents:UIControlEventTouchUpInside];
-    [_bottonFunctionBar addSubview:_save];
 }
 
 #pragma mark - bottomDotStyle
